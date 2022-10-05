@@ -35,10 +35,18 @@ function updateVersion {
   checkSO
 }
 
-if [ $version == $goVersion 2>/dev/null ]; then
-  echo "[*] You have the version of go correctly"
-  go version 2>/dev/null | awk '{print $3}'
-else
-  echo "[!] Error version, updating now"
-	updateVersion
+function main {
+  if [ $version == $goVersion 2>/dev/null ]; then
+    echo "[*] You have the version of go correctly"
+    go version 2>/dev/null | awk '{print $3}'
+  else
+    echo "[!] Error version, updating now"
+    updateVersion
+  fi
+}
+
+if [ $goVersion != $1 ]; then
+  echo -e '[!] Error, please enter the version \n"./script.sh 1.19.2"'
+else 
+   main
 fi
