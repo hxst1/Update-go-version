@@ -20,11 +20,11 @@
   ```json
     "scripts": {
         "setup": "./.husky/script.sh 1.19.2",
-        "start": "yarn setup | go run src/main.go"
+        "start": "yarn setup && go run src/main.go"
       }
   ```
 4. You can now run it with yarn or npm `yarn start` or `npm run start`
-  - if you use npm modify the start script to the following ` "start": "npm run setup | go run src/main.go"`
+  - if you use npm modify the start script to the following ` "start": "npm run setup && go run src/main.go"`
 
 <br>
 
