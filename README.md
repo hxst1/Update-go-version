@@ -7,7 +7,7 @@
 ## - Normal script execution
 
 1. Give maximum permissions to the script `chmod +x ./script.sh`
-2. `./script.sh (version)` example: `./script.sh 1.19.2`
+2. Script execution `./script.sh (version)` example: `./script.sh 1.19.2`
 
 ## - Script execution in project
 
