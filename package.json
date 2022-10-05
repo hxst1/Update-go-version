@@ -1,0 +1,12 @@
+{
+  "name": "update-version-go",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.sh",
+  "scripts": {
+    "start": "./script.sh 1.19.2"
+  },
+  "keywords": [],
+  "author": "Edu Ruiz",
+  "license": "ISC"
+}
