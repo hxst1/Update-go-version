@@ -4,6 +4,13 @@
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=F71164&width=435&lines=by+Edu+Ruiz)](https://git.io/typing-svg)
 
+## Normal script execution
+
+1. Give maximum permissions to the script `chmod +x ./script.sh`
+2. `./script.sh (version)` example: `./script.sh 1.19.2`
+
+## Script execution in project
+
 1. Add the script in the .husky folder
   - if you don't have a husky install now: [Husky install](https://typicode.github.io/husky/#/?id=automatic-recommended)
 
