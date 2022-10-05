@@ -1,5 +1,5 @@
 
-# Update-go-version
+# Update-go-version Linux/Mac
 #### Update the version of go on your machine
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=F71164&width=435&lines=by+Edu+Ruiz)](https://git.io/typing-svg)
