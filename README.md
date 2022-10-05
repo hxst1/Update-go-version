@@ -19,5 +19,7 @@
 4. You can now run it with yarn or npm `yarn start` or `npm run start`
   - if you use npm modify the start script to the following ` "start": "npm run setup | go run src/main.go"`
 
-**Note:** This script may contain errors, anything or improvement you can contact me on discord EyA#1799
+<br>
+
+**Note:** This script may contain errors, anything or improvement you can contact me on discord [EyA#1799](https://discord.com/users/398174691027714059)
 
