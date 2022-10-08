@@ -9,7 +9,7 @@
 1. Give maximum permissions to the script `chmod +x ./script.sh`
 2. Script execution `./script.sh (version)` example: `./script.sh 1.19.2`
 
-## - Script execution in project
+## - Script execution in project [ONLY LINUX/MAC]
 
 1. Add the script in the .husky folder
   - if you don't have a husky install now: [Husky install](https://typicode.github.io/husky/#/?id=automatic-recommended)
